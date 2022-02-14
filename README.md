@@ -95,7 +95,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Responsive images for every screen size and device with React](https://medium.com/@peter.lazzarino/responsive-images-for-every-screen-size-with-react-stop-using-picture-srcset-and-media-for-47c6bd4fb4e6) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [React Image Sizes Attribute for Fast ecommerce](https://crystallize.com/blog/react-image-sizes-attribute-for-fast-ecommerce) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**

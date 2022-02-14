@@ -1,11 +1,33 @@
-import mobileImg from './images/image-host-mobile.jpg';
-import tabletImg from './images/image-host-table.jpg';
-import desktopImg from './images/image-host-desktop.jpg';
+
+const imageVariants = [
+    {
+      url: "image-host-mobile.jpg",
+      width: 375
+    },
+    {
+      url: "image-host-table.jpg",
+      width: 491
+    },
+    {
+      url: "image-host-desktop.jpg",
+      width: 888
+    }
+];
+  
+const srcSet = imageVariants.map(variant => `${variant.url} ${variant.width}w`).join(",");
+
+console.log(srcSet);
 
 function imageHost(){
     return(
         <div className="image-host">
-            <img src={} alt="" />
+            <img 
+                srcSet={srcSet}
+                src={imageVariants[0].url}
+                alt="a singer sings"
+            />
         </div>
     )
 }
+
+export default imageHost;
