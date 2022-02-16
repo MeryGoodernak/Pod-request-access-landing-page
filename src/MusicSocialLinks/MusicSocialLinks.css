@@ -1,0 +1,19 @@
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 84%;
+    height: 2.5%;
+}
+#spotify{
+    width: 17.7%;
+}
+#apple{
+    width: 14.28%;
+}
+#google{
+    width: 23.17%;
+}
+#pocket{
+    width: 24.44%;
+}

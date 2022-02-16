@@ -2,7 +2,7 @@ import './Heading.css';
 
 function heading(){
     return(
-        <h1 className='title'>Publish your podcasts <span>everywhere</span>.</h1>
+        <h1 className='title'>PUBLISH YOUR PODCAST <span>EVERYWHERE.</span></h1>
     )
 }
 

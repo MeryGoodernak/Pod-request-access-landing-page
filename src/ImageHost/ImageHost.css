@@ -1,3 +1,18 @@
-.image-host{
-    background-color: aqua;
+.image-host {
+    background-image: url(./images/image-host-mobile.jpg);
+    background-repeat:no-repeat;
+    height: 30vw;
+}
+
+@media (min-width:425px) {
+    .image-host{
+        background-image: url(./images/image-host-tablet.jpg);
+    }
+}
+
+@media (min-width:1024px) {
+    .image-host{
+        background-image: url(./images/image-host-desktop.jpg);
+    }
+    
 }
